@@ -1,0 +1,51 @@
+/*  General body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:hwb(180 89% 4%); /* Light gray background */
+    color:#ffffff; /* Dark gray text */
+}
+
+/*  Name centered at the top */
+h1 {
+    color: #0047AB; /* Blue text */
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/*  Big Outer Box with an Outline */
+.big-box {
+    background-color:#bbff00; /* White background */
+    border: 5px solid #0047AB; /* Blue outline */
+    padding: 20px;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+/*  Inner Boxes */
+.inner-box {
+    background-color: #FFA500; /* Orange */
+    color: #ffffff; /* White text */
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*  Styling for links */
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0047AB; /* Blue */
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ff4500; /* Orange on hover */
+}
