@@ -1,3 +1,4 @@
+//ITMD 541 Saketh Reddy Gurram
 // DOM Elements
 const billInput = document.getElementById("bill_total");
 const tipInput = document.getElementById("tip");
